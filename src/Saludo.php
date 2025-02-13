@@ -23,7 +23,7 @@ class Saludo
 
     public function generarSaludoAleatorio()
     {
-        $indice = array_rand($this->saludos);
+        $indice = array_rand($this->saludos); 
         return $this->saludos[$indice];
     }
 }
